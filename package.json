@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-hello-world",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Node.js Hello World app on Debian using docker",
+  "author": "Miloud Mostefaoui <m.mostefaoui@gmail.com>",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  }
+}
