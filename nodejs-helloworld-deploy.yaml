@@ -1,3 +1,4 @@
+---
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
@@ -14,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nodejs-helloworld
-        image: eu.gcr.io/parcel-vision/nodejs-helloworld:2.0
+        image: eu.gcr.io/parcel-vision/nodejs-helloworld:3.0
         ports:
         - containerPort: 3000
