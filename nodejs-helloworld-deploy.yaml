@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: nodejs-helloworld
+spec:
+  minReadySeconds: 5
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: nodejs-helloworld
+    spec:
+      containers:
+      - name: nodejs-helloworld
+        image: eu.gcr.io/parcel-vision/nodejs-helloworld:1.0
+        ports:
+        - containerPort: 3000
