@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nodejs-helloworld
-        image: eu.gcr.io/parcel-vision/nodejs-helloworld:4.0
+        image: eu.gcr.io/parcel-vision/nodejs-helloworld:3.0
         ports:
         - containerPort: 3000
