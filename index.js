@@ -7,7 +7,7 @@ var PORT = process.env.PORT || DEFAULT_PORT;
 // App
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Hello World version 1.1 !!!\n');
+  res.send('Hello World version demo PVR.... !!!\n');
 });
 
 app.listen(PORT)
