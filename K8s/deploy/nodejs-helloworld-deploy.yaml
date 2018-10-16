@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: nodejs-helloworld
   annotations:
-    flux.weave.works/automated: "true"
+    flux.weave.works/automated: "false"
 spec:
   minReadySeconds: 5
   replicas: 1
@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: nodejs-helloworld
-        image: eu.gcr.io/parcel-vision/nodejs-helloworld:1.3
+        image: eu.gcr.io/parcel-vision/nodejs-helloworld:1.2
         ports:
         - containerPort: 3000
